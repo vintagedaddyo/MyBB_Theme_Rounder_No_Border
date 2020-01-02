@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme name="Rounder-No-Border" version="1821">
+<theme name="Rounder-No-Border" version="1822">
 	<properties>
-		<templateset><![CDATA[16]]></templateset>
+		<templateset><![CDATA[13]]></templateset>
 		<editortheme><![CDATA[mybb.css]]></editortheme>
 		<imgdir><![CDATA[themes/rounder-no-border]]></imgdir>
 		<logo><![CDATA[themes/rounder-no-border/logo.png]]></logo>
@@ -11,7 +11,7 @@
 		<disporder><![CDATA[a:7:{s:17:"thread_status.css";i:1;s:16:"star_ratings.css";i:2;s:10:"usercp.css";i:3;s:14:"showthread.css";i:4;s:9:"modcp.css";i:5;s:10:"global.css";i:6;s:8:"css3.css";i:7;}]]></disporder>
 	</properties>
 	<stylesheets>
-		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1821"><![CDATA[/*
+		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1822"><![CDATA[/*
  * MyBB: Rounder No-Border Frontend Theme 
  *
  * File: thread_status.css
@@ -99,9 +99,10 @@
     background-image: url('themes/rounder-no-border/newlockfolder.png'); 
 }
 
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1821"><![CDATA[/*
+		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1822"><![CDATA[/*
  * MyBB: Rounder No-Border Frontend Theme 
  *
  * File: star_rating.css
@@ -205,9 +206,10 @@ td .star_rating {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1821"><![CDATA[/*
+		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1822"><![CDATA[/*
  * MyBB: Rounder No-Border Frontend Theme 
  *
  * File: usercp.css
@@ -396,9 +398,10 @@ td .star_rating {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="showthread.css" attachedto="showthread.php" version="1821"><![CDATA[/*
+		<stylesheet name="showthread.css" attachedto="showthread.php" version="1822"><![CDATA[/*
  * MyBB: Rounder N0-Border Frontend Theme 
  *
  * File: showthread.css
@@ -460,9 +463,10 @@ ul.thread_tools li.poll {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="modcp.css" attachedto="modcp.php" version="1821"><![CDATA[/*
+		<stylesheet name="modcp.css" attachedto="modcp.php" version="1822"><![CDATA[/*
  * MyBB: Rounder No-Border Frontend Theme 
  *
  * File: modcp.css
@@ -579,9 +583,10 @@ ul.thread_tools li.poll {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="global.css" version="1821"><![CDATA[/*
+		<stylesheet name="global.css" version="1822"><![CDATA[/*
  * MyBB: Rounder No-Border Frontend Theme 
  *
  * File: global.css
@@ -2668,9 +2673,10 @@ div.jqi .jqisubstate .jqibuttons button {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="css3.css" version="1821"><![CDATA[/*
+		<stylesheet name="css3.css" version="1822"><![CDATA[/*
  * MyBB: Rounder No-Border Frontend Theme 
  *
  * File: css3.css
@@ -2873,6 +2879,7 @@ element {
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 }
+		
 		
 		
 		
