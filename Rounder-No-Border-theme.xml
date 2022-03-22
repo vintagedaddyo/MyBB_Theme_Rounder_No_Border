@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme name="Rounder-No-Border" version="1822">
+<theme name="Rounder-No-Border" version="1830">
 	<properties>
-		<templateset><![CDATA[13]]></templateset>
+		<templateset><![CDATA[32]]></templateset>
 		<editortheme><![CDATA[mybb.css]]></editortheme>
 		<imgdir><![CDATA[themes/rounder-no-border]]></imgdir>
 		<logo><![CDATA[themes/rounder-no-border/logo.png]]></logo>
@@ -11,7 +11,7 @@
 		<disporder><![CDATA[a:7:{s:17:"thread_status.css";i:1;s:16:"star_ratings.css";i:2;s:10:"usercp.css";i:3;s:14:"showthread.css";i:4;s:9:"modcp.css";i:5;s:10:"global.css";i:6;s:8:"css3.css";i:7;}]]></disporder>
 	</properties>
 	<stylesheets>
-		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1822"><![CDATA[/*
+		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1830"><![CDATA[/*
  * MyBB: Rounder No-Border Frontend Theme 
  *
  * File: thread_status.css
@@ -100,9 +100,10 @@
 }
 
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1822"><![CDATA[/*
+		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1830"><![CDATA[/*
  * MyBB: Rounder No-Border Frontend Theme 
  *
  * File: star_rating.css
@@ -207,9 +208,10 @@ td .star_rating {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1822"><![CDATA[/*
+		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1830"><![CDATA[/*
  * MyBB: Rounder No-Border Frontend Theme 
  *
  * File: usercp.css
@@ -399,9 +401,10 @@ td .star_rating {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="showthread.css" attachedto="showthread.php" version="1822"><![CDATA[/*
+		<stylesheet name="showthread.css" attachedto="showthread.php" version="1830"><![CDATA[/*
  * MyBB: Rounder N0-Border Frontend Theme 
  *
  * File: showthread.css
@@ -464,9 +467,10 @@ ul.thread_tools li.poll {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="modcp.css" attachedto="modcp.php" version="1822"><![CDATA[/*
+		<stylesheet name="modcp.css" attachedto="modcp.php" version="1830"><![CDATA[/*
  * MyBB: Rounder No-Border Frontend Theme 
  *
  * File: modcp.css
@@ -584,9 +588,10 @@ ul.thread_tools li.poll {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="global.css" version="1822"><![CDATA[/*
+		<stylesheet name="global.css" version="1830"><![CDATA[/*
  * MyBB: Rounder No-Border Frontend Theme 
  *
  * File: global.css
@@ -2674,9 +2679,10 @@ div.jqi .jqisubstate .jqibuttons button {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="css3.css" version="1822"><![CDATA[/*
+		<stylesheet name="css3.css" version="1830"><![CDATA[/*
  * MyBB: Rounder No-Border Frontend Theme 
  *
  * File: css3.css
@@ -2883,6 +2889,7 @@ element {
 		
 		
 		
+		
 		]]>
 		</stylesheet>
 	</stylesheets>
@@ -3002,15 +3009,15 @@ element {
 				{$awaitingusers}
 				<navigation>
 				<br />]]></template>
-		<template name="headerinclude" version="1820"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
+		<template name="headerinclude" version="1830"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
 <link rel="alternate" type="application/atom+xml" title="{$lang->latest_threads} (Atom 1.0)" href="{$mybb->settings['bburl']}/syndication.php?type=atom1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset={$charset}" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <!-- Add Favicon -->
 <link rel="Shortcut icon" href="{$theme['imgdir']}/favicon.ico" />
-<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.js?ver=1820"></script>
-<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.plugins.min.js?ver=1820"></script>
-<script type="text/javascript" src="{$mybb->asset_url}/jscripts/general.js?ver=1820"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.js?ver=1823"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.plugins.min.js?ver=1821"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/general.js?ver=1827"></script>
 
 {$stylesheets}
 
@@ -3053,11 +3060,12 @@ $(document).ready(function(){
                 });    
 </script>
 
-
 <script type="text/javascript">
 <!--
 	lang.unknown_error = "{$lang->unknown_error}";
-
+	lang.confirm_title = "{$lang->confirm_title}";
+	lang.expcol_collapse = "{$lang->expcol_collapse}";
+	lang.expcol_expand = "{$lang->expcol_expand}";
 	lang.select2_match = "{$lang->select2_match}";
 	lang.select2_matches = "{$lang->select2_matches}";
 	lang.select2_nomatches = "{$lang->select2_nomatches}";
